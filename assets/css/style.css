@@ -1,0 +1,32 @@
+/* font-family add */
+@font-face {
+    font-family: myFont;
+    src: url('../fonts/PatuaOne-Regular.ttf');
+}
+
+.main{
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 30px;
+}
+button{
+    font-size: 60px;
+    padding: 10px;
+    font-family: joy;
+}
+.but{
+    font-size: 20px;
+    color: red; 
+}
+#min,#sec,#hour{
+    font-family: "myFont";
+}
+span{
+    font-size: 100px;
+}
+#pam{
+   font-family: "myFont";
+   transform: scale(.5);
+  
+}
